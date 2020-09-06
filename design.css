@@ -1,0 +1,34 @@
+body
+	  {
+	  	background-image:url("pic/111.jpg");
+	  	background-repeat: no-repeat;
+	  	background-size: cover;
+	  	width: 100%;
+	  }
+
+
+	  .collapsible {
+  background-color:#6fb1ec;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.content {
+  padding: 0 18px;
+  display:none;
+  font-size: 20px;
+  font-style: bold;
+  overflow: hidden;
+  font-family: Courier New;
+  
+}
+.active, .collapsible:hover {
+  background-color: #3088d5;
+}
